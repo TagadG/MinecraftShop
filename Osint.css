@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+ background-color: rgb(0 0 0);
+ font-family: georgia, arial, sans-serif;
+ padding: 0;
+ margin:0;
+background-size: cover;
+}
+.fond img
+{
+	padding:0;
+	margin:0;
+
+}
+nav{
+	position: absolute;
+	margin:0;
+	padding:0;
+	height:50%;
+	width: 100%;
+	background-image: linear-gradient(black, transparent);
+}
+.fieldset-produits h4
+{
+	font-family: "Roboto Mono";
+	position: relative;
+	left: 22%;
+	margin-top:-2%;
+	text-align:center;
+	width: fit-content;
+	color: white;
+	background-color: rgb(0,26,51);
+	font-size: 200%;
+	z-index: 2;
+	border-radius: 15px;
+	padding:10px;
+	margin-bottom:20px;
+	
+}
+.fieldset-produitTAG1 h2
+{
+	font-family: "Roboto Mono";
+	position: relative;
+	margin-top:0;
+	top: 10%;
+	text-align:center;
+	background-color:rgb(0,220,0);
+	width:50%;
+	margin-left:25%;
+	border-radius:10px;
+	color: black;
+	font-size: 150%;
+	z-index: 2;
+}
+.fieldset-produitTAG1 h6
+{
+	font-family: "Roboto Mono";
+	position: relative;
+	margin-top:0;
+	top: 10%;
+	text-align:center;
+	width:90%;
+	left:5%;
+	color: black;
+	font-size: 100%;
+	z-index: 2;
+}
+.fieldset-produit2 h5 {
+    display: inline-block;
+    font-family: "Roboto Mono";
+    text-align: left;
+	padding:8px;
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: rgb(0,26,51);
+    border-radius: 10px;
+    color: white;
+    font-size: 120%;
+    box-sizing: border-box;
+}
+.fieldset-produitTAG h2
+{
+	font-family: "Roboto Mono";
+	position: relative;
+	margin-top:0px;
+	text-align:center;
+	top: 20%;
+	color: black;
+	font-size: 150%;
+	z-index: 2;
+}
+.fieldset-produit2 img
+{
+	border-radius: 25px;
+	position: relative;
+	left: 19%;
+	top: 0%;
+	margin:10%px;
+	margin-bottom:10%;
+}
+.fieldset-produit1 img
+{
+	border-radius: 25px;
+	position: relative;
+	left: 10%;
+	top: 0px;
+	margin-bottom:5%;
+}
+
+.fieldset-produits img:hover
+{
+	transform: scale(1.05);
+	transition: 0.3s ;
+}
+.fieldset-produits
+{
+	display: flex;      
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 40px;
+	padding: 20px;
+	left:18%;
+	top:5%;
+	margin:auto;
+	width: 60%;
+	border-color: rgb(50 255 50);
+	border-style: solid;
+	overflow: shown;	
+	background-color: rgb(0, 100, 0, 0.7);
+	position: absolute;
+	border-radius: 15px;
+}
+
+.fieldset-produit1
+{
+	top:20px;
+	left:5%;
+	width:88%;
+	padding-bottom:8%;
+	overflow: hidden;	
+	background-color: rgb(255 255 255);
+	position: relative;
+	border-radius: 15px;
+	border-width:0;
+}
+
+.fieldset-produit2
+{
+	top:20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width:20%;
+	overflow: shown;	
+	background-color: rgb(255 255 255);
+	position: relative;
+	border-radius: 15px;
+	border-width:0;
+	margin-bottom:5%;
+}
+
+.fieldset-produitTAG1
+{
+	top:70px;
+	margin-right: 0px;
+	margin-left: 0px;
+	left:50%;
+	height:55%;
+	width:40%;
+	overflow: shown;	
+	background-color:white;
+	position: absolute;
+	border-width:10px;
+	border-color: rgb(0 220 0);
+	padding:2%;
+	padding-bottom:6%;
+}
+.fieldset-produitTAG
+{
+	top:-5%;
+	right:-8%;
+	margin-left: 0px;
+	width:25%;
+	height:20%;
+	overflow: shown;	
+	background-color: rgb(0 220 0);
+	position: absolute;
+	border-radius: 15px;
+	border-width:0px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding:10px;
+  margin-left:6%;
+  position:relative;
+  margin-top:0%;
+  text-align:center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Roboto Mono"; 
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: rgb(0,26,51);
+  outline: none;
+}
+
+.b1{
+	color:white;
+	width:30%;
+	position:relative;
+	margin-left:34%;
+	margin-top:3%;
+	font-family: "Roboto Mono";
+	background-color:rgb(0,26,51);
+	font-weight:bold;
+	border-radius:30px;
+	padding:15px;
+	border-width:0;
+}
+.b2{
+	color:white;
+	width:7%;
+	height:25%;
+	position:absolute;
+	left:3%;
+	top:42%;
+	font-family: "Roboto Mono";
+	background-color:rgb(0,26,51);
+	font-weight:bold;
+	padding:15px;
+	opacity:0;
+	border-width:0;
+}
+
+#message1 {
+	margin-top: 5px;
+	font-size: 80%;
+	text-align:center;
+	color: green;
+	display: none;
+	font-family: "Roboto Mono";
+	z-index:5;
+}
+
+#message2 {
+	top:35%;
+	left:1%;	
+	font-size: 100%;
+	position:absolute;
+	text-align:center;
+	color: white;
+	
+	display: none;
+	font-family: "Roboto Mono";
+	z-index:5;
+}
